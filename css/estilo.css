@@ -1,0 +1,20 @@
+p{
+	text-align: justify;
+}
+
+.logo-head{
+	display: block;
+	margin: auto;
+}
+
+.col {
+	padding: 10px;
+}
+
+h5{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}

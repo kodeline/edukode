@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Edukode</title>
+	<!--Enlace del Boostrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<!--Menu de Navegacion -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  		<a class="navbar-brand" href="#"><> edukode </a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-responsivo" aria-controls="menu-responsivo" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="menu-responsivo">
+   			<div class="navbar-nav">
+  				<a class="nav-item nav-link" href="#">Inicio </a>
+  				<a class="nav-item nav-link" href="#">Cursos</a>
+   				<a class="nav-item nav-link" href="#">Tutoriales</a>
+   				<a class="nav-item nav-link" href="#">Contacto</a>
+    		</div>
+    	</div>
+
+	</nav>
+	<section>
+		<div class="container-fluid bg-light">
+			<div class="row">
+				<div class="col">
+					<img class="logo-head" src="img/react-logo-1.png">	
+				</div>
+			</div>	
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+				
+					<h1>React.js</h1>
+
+					<p>Es una librería JavaScript desarrollada por Facebook. ¿Para qué nos sirve y cómo funciona?
+
+					React es una biblioteca escrita en JavaScript, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces de usuario. Se utiliza en Facebook para la producción de componentes, e Instagram está escrito enteramente en React. Uno de sus puntos más destacados, es que no sólo se utiliza en el lado del cliente, sino que también se puede representar en el servidor, y trabajar juntos.</p>
+
+					<h2>¿Cómo funciona React?</h2>
+				
+					<p>React.js está construido en torno a hacer funciones, que toman las actualizaciones de estado de la página y que se traduzcan en una representación virtual de la página resultante. Siempre que React es informado de un cambio de estado, vuelve a ejecutar esas funciones para determinar una nueva representación virtual de la página, a continuación, se traduce automáticamente ese resultado en los cambios del DOM necesarios para reflejar la nueva presentación de la página.
+
+					A primera vista, esto suena como que fuera más lento que el enfoque JavaScript habitual de actualización de cada elemento, según sea necesario. Detrás de escena, sin embargo, React.js hace justamente eso: tiene un algoritmo muy eficiente para determinar las diferencias entre la representación virtual de la página actual y la nueva. A partir de esas diferencias, hace el conjunto mínimo de cambios necesarios en el DOM.
+
+					Pues utiliza un concepto llamado el DOM virtual que hace selectivamente sub-árboles de los nodos sobre la base de cambios de estado, desarrollando esto, con la menor cantidad de manipulación DOM posible, con el fin de mantener los componentes actualizados, estructurando sus datos.</p>
+
+					<h2>¿Cómo funciona el DOM virtual?</h2>
+
+					<p>Imagina que tienes un objeto que es un modeló en torno a una persona. Tienes todas las propiedades relevantes de una persona que podría tener, y refleja el estado actual de la persona. Esto es básicamente lo que React hace con el DOM.
+
+					Ahora piensa, si tomamos ese objeto y le hacemos algunos cambios. Se ha añadido un bigote, unos bíceps y otros cambios. En React, cuando aplicamos estos cambios, dos cosas ocurren:
+
+					- En primer lugar, React ejecuta un algoritmo de "diffing", que identifica lo que ha cambiado.
+
+					- El segundo paso es la reconciliación, donde se actualiza el DOM con los resultados de diff.
+
+					La que hace React, ante estos cambios, en lugar de tomar a la persona real y reconstruirla desde cero, sólo cambiaría la cara y los brazos. Esto significa que si usted tenía el texto en una entrada y un actualización se llevó a cabo, siempre y cuando nodo padre de la entrada no estaba programado para la actualización, el texto se quedaría sin ser cambiado.
+
+					Es así como React, está tomando un gran auge, llegando a ser más usado. Si deseas empezar a aprender a utilizar React, te invitamos a nuestro nuevo curso Fundamentos de React</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="bg-dark">
+		<p>Desarrollado Jose Joaquin Navarro</p>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
